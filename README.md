@@ -23,25 +23,25 @@ Sajal Farooq's internship project explores how elementary particles acquire mass
 
 ![Higgs potential for positive and negative μ²](potential_slices.png)
 
-For positive μ², the potential has one minimum at the origin. For negative μ², the slice has two degenerate minima.
+For positive μ², the potential has a single minimum at the origin. For negative μ², the origin becomes unstable and the one-dimensional slice develops two minima of equal depth. The two minima correspond to opposite field values with the same magnitude.
 
 **Symmetry-breaking transition**
 
 ![Higgs potential as μ² passes through zero](symmetry_breaking_transition.png)
 
-As μ² becomes negative, the minimum at the origin splits into two minima in the one-dimensional slice.
+The curves show how the potential changes as μ² decreases through zero. At μ² = 0, the quartic term gives a minimum with zero curvature at the origin. Once μ² becomes negative, the minima move away from the origin and separate further as μ² decreases.
 
 **Mexican hat potential**
 
 ![Three-dimensional Higgs potential with a ring of minima](mexican_hat.png)
 
-For negative μ², the minima form a circle in the complex field plane. Each point on the circle is a possible vacuum.
+The surface shows the potential over the real and imaginary components of the complex field. For negative μ², the minimum occurs at a fixed field magnitude, forming a circle of degenerate vacua. Choosing a point on the circle selects a vacuum with a definite field phase.
 
 **Vacuum fluctuations**
 
 ![Radial and angular fluctuations around a chosen vacuum](vacuum_fluctuations.png)
 
-Radial fluctuations climb the potential, while angular fluctuations move along the circle of degenerate minima.
+The arrows show two directions of fluctuation about a chosen vacuum. Radial fluctuations change the field magnitude and climb the potential, producing a massive Higgs mode. Angular fluctuations change the phase along the circle of minima and correspond to the Goldstone mode in the global theory.
 
 ### Part II — Higgsstrahlung
 
@@ -49,25 +49,25 @@ Radial fluctuations climb the potential, while angular fluctuations move along t
 
 ![Tree-level Feynman diagram for electron–positron annihilation into ZH](higgsstrahlung_tree_diagram.png)
 
-An electron and a positron annihilate into a virtual Z boson, which produces a Z boson and a Higgs boson.
+An electron and a positron annihilate into a virtual Z boson in the s-channel. The virtual Z couples to the outgoing Z boson and Higgs boson through the HZZ vertex. This diagram gives the leading tree-level contribution when the electron mass is neglected.
 
 **Total cross section**
 
 ![Total Higgsstrahlung cross section versus center-of-mass energy](total_cross_section.png)
 
-The tree-level cross section rises above the ZH production threshold, reaches a maximum, and decreases at higher energies.
+The curve shows the tree-level cross section integrated over the production angle. It rises rapidly after the ZH channel opens and reaches a broad maximum near 245 GeV. At higher collision energies, the cross section decreases.
 
 **Threshold detail**
 
 ![Higgsstrahlung cross section near the ZH production threshold](threshold_cross_section.png)
 
-The cross section rises rapidly just above threshold as phase space opens for the ZH final state.
+This close-up shows the onset of ZH production near 216 GeV, where the center-of-mass energy equals the sum of the Z and Higgs masses. The outgoing particles have zero momentum at threshold in the center-of-mass frame. Just above threshold, their momentum grows rapidly, opening up phase space and driving the steep rise.
 
 **Angular distribution**
 
 ![Differential Higgsstrahlung cross section at 250, 350, and 500 GeV](angular_distribution.png)
 
-The differential cross section is shown versus cos θ at three collision energies, where θ is the Z boson production angle.
+The curves show the differential cross section versus cos θ, where θ is the angle between the outgoing Z boson and the incoming electron beam. At all three energies, the distribution is symmetric about cos θ = 0 and peaks at θ = 90°. The relative suppression toward the forward and backward directions becomes more pronounced at higher energies.
 
 ## Reproduce the plots
 
