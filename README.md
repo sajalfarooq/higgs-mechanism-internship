@@ -11,16 +11,16 @@ Sajal Farooq's internship project explores how elementary particles acquire mass
 
 | File | Contents |
 | --- | --- |
-| [Internship report](report/Higgs_Internship_Report.pdf) | Theory, derivations, and numerical results. |
-| [Mathematica notebook](notebooks/higgsstrahlung.nb) | Amplitude, spin and polarization sums, cross sections, and saved plots. |
-| [Python script](python/make_figures.py) | Generates the Higgs potential and symmetry-breaking plots. |
+| [Internship report](Higgs_Internship_Report.pdf) | Theory, derivations, and numerical results. |
+| [Mathematica notebook](higgsstrahlung.nb) | Amplitude, spin and polarization sums, cross sections, and saved plots. |
+| [Python script](make_figures.py) | Generates the Higgs potential and symmetry-breaking plots. |
 
 ## Figures
 
 | Part | Figures |
 | --- | --- |
-| I | [Potential slices](figures/potential_slices.png), [symmetry-breaking transition](figures/symmetry_breaking_transition.png), [Mexican hat potential](figures/mexican_hat.png), [vacuum fluctuations](figures/vacuum_fluctuations.png) |
-| II | [Tree-level diagram](figures/higgsstrahlung_tree_diagram.png), [total cross section](figures/total_cross_section.png), [threshold detail](figures/threshold_cross_section.png), [angular distribution](figures/angular_distribution.png) |
+| I | [Potential slices](potential_slices.png), [symmetry-breaking transition](symmetry_breaking_transition.png), [Mexican hat potential](mexican_hat.png), [vacuum fluctuations](vacuum_fluctuations.png) |
+| II | [Tree-level diagram](higgsstrahlung_tree_diagram.png), [total cross section](total_cross_section.png), [threshold detail](threshold_cross_section.png), [angular distribution](angular_distribution.png) |
 
 ## Reproduce the plots
 
