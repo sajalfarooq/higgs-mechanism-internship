@@ -24,20 +24,13 @@ Sajal Farooq's internship project explores how elementary particles acquire mass
 
 ## Reproduce the plots
 
-### Part I · Python
+- **Part I** — Install the Python dependencies with `python -m pip install -r requirements.txt`, then run `python python/make_figures.py` from the repository root.
+- **Part II** — Open `notebooks/higgsstrahlung.nb` in Wolfram Mathematica with FeynCalc available and choose **Evaluation → Evaluate Notebook**.
 
-From the repository root, run:
+## References
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe python/make_figures.py
-```
-
-The script replaces the four Part I PNGs in `figures/`. Styling may vary with the Matplotlib version and installed fonts.
-
-### Part II · Mathematica
-
-Install FeynCalc in your Mathematica environment. Open [the notebook](notebooks/higgsstrahlung.nb) and choose **Evaluation → Evaluate Notebook**. The notebook was saved with Mathematica 14.2.
+- F. Englert and R. Brout, [“Broken Symmetry and the Mass of Gauge Vector Mesons”](https://doi.org/10.1103/PhysRevLett.13.321), *Physical Review Letters* **13**, 321–323 (1964).
+- A. Djouadi, [“The Anatomy of Electro-Weak Symmetry Breaking. I: The Higgs Boson in the Standard Model”](https://arxiv.org/abs/hep-ph/0503172), a review covering Higgs production, including Higgsstrahlung.
+- [FeynCalc](https://feyncalc.github.io/), the Mathematica package used for the symbolic calculation.nment. Open [the notebook](notebooks/higgsstrahlung.nb) and choose **Evaluation → Evaluate Notebook**. The notebook was saved with Mathematica 14.2.
 
 Export the plotted outputs from Mathematica as needed. The notebook contains the total cross-section, angular distribution, and a log–log comparison.
