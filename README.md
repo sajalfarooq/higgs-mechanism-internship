@@ -5,7 +5,7 @@ Sajal Farooq's internship project explores how elementary particles acquire mass
 - **Part I** develops spontaneous symmetry breaking and the Higgs mechanism. The Python script visualizes the potential and fluctuations around a chosen vacuum.
 - **Part II** computes the tree-level cross section for Higgsstrahlung, e⁺e⁻ → ZH, using Mathematica and FeynCalc.
 
-![Total Higgsstrahlung cross section versus center-of-mass energy](figures/total_cross_section.png)
+![Total Higgsstrahlung cross section versus center-of-mass energy](total_cross_section.png)
 
 ## Project files
 
