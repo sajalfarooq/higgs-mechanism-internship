@@ -1,6 +1,6 @@
 # The Higgs Mechanism and Higgsstrahlung
 
-Sajal Farooq's internship project explores how elementary particles acquire mass and applies the electroweak Standard Model to Higgs production in electron–positron collisions.
+This project explores how elementary particles acquire mass and applies the electroweak Standard Model to Higgs production in electron–positron collisions.
 
 - **Part I** develops spontaneous symmetry breaking and the Higgs mechanism. The Python script visualizes the potential and fluctuations around a chosen vacuum.
 - **Part II** computes the tree-level cross section for Higgsstrahlung, e⁺e⁻ → ZH, using Mathematica and FeynCalc.
